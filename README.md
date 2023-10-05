@@ -4,28 +4,29 @@ Python scripts for extracting text from PDF and TXT files, followed by text prep
 
 ### Key Functionalities:
 
-Text Extraction:
+#### Text Extraction:
 
-Extracts text from files in a specified directory.
-Handles both PDF and TXT file formats.
+- Extracts text from files in a specified directory.
+- Handles both PDF and TXT file formats.
 
-Text Preprocessing:
+#### Text Preprocessing:
 
-Stopword removal
-Lemmatization
-
-
-Topic Modeling:
-
-BERTopic model is used for identifying topics within the preprocessed text.
-UMAP is used for dimensionality reduction of text embeddings.
-
- The code returns the 10 most representative words and the number of documents associated with each topic.
+- Stopword removal
+- Lemmatization
 
 
-Tools:
+#### Topic Modeling:
 
-NLTK: NLP Library Used for natural language preprocessing tasks like stopword removal and lemmatization.
-PyPDF2: Library for extracting text from PDF files.
-BERTopic: Topic modeling technique that leverages transformers and c-TF-IDF to create dense clusters allowing for easily interpretable topics whilst keeping important words in the topic descriptions (https://maartengr.github.io/BERTopic)
-UMAP: Algorithm used for dimensionality reduction 
+- BERTopic model is used for identifying topics within the preprocessed text.
+- UMAP is used for dimensionality reduction of text embeddings.
+
+The code returns the 10 most representative words and the number of documents associated with each topic.
+
+
+
+#### Tools:
+
+- NLTK: NLP Library Used for natural language preprocessing tasks like stopword removal and lemmatization.
+- PyPDF2: Library for extracting text from PDF files.
+- [BERTopic]([https://towardsdatascience.com/topic-modeling-with-bert-779f7db187e6]): Topic modeling technique that leverages transformers and c-TF-IDF to create dense clusters allowing for easily interpretable topics whilst keeping important words in the topic descriptions.
+- UMAP: Algorithm used for dimensionality reduction 

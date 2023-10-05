@@ -1,6 +1,6 @@
 # Topic Modeling from PDF/txt files
 
-Python scripts for extracting text from PDF and TXT files, followed by text preprocessing using NLP methods and topic modeling of the preprocessed texts. Topic modeling can be used to perform preliminary data analysis to identify key themes and topics present in a corpus of text. Code based on article [article]([https://towardsdatascience.com/topic-modeling-with-bert-779f7db187e6]) by [Maarten Grootendorst]([https://medium.com/@maartengrootendorst]).
+Python scripts for extracting text from PDF and TXT files, followed by text preprocessing using NLP methods and topic modeling of the preprocessed texts. Topic modeling can be used to perform preliminary data analysis to identify key themes and topics present in a corpus of text. Code based on [tutorial]([https://towardsdatascience.com/topic-modeling-with-bert-779f7db187e6]) by [Maarten Grootendorst]([https://medium.com/@maartengrootendorst]).
 
 ### Key Functionalities:
 
